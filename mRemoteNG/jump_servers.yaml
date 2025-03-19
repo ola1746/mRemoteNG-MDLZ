@@ -1,0 +1,19 @@
+'> JumpServer':
+  Linux:
+    icon: Linux
+    protocol: SSH2
+    port: 22
+    server_list:
+      LiJS1: 170.162.72.22
+      LiJS2: 170.162.196.18
+      LiJS3: 159.164.3.72
+      LiJS4: 159.164.137.52
+  Windows:
+    icon: Workstation
+    protocol: RDP
+    port: 3389
+    server_list:
+      WinJS1: 170.162.72.84
+      WinJS2: 170.162.196.17
+      WinJS3: 159.164.3.70
+      WinJS4: 159.164.137.59
