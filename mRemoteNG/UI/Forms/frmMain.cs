@@ -340,8 +340,8 @@ namespace mRemoteNG.UI.Forms
 
         private async void FrmMain_Shown(object sender, EventArgs e)
         {
-            PromptForUpdatesPreference();
-            await CheckForUpdates();
+            //PromptForUpdatesPreference();
+            //await CheckForUpdates();
         }
 
         private void PromptForUpdatesPreference()
