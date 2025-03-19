@@ -495,6 +495,9 @@
     <None Update="jump_servers.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="extApps.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Resources\Header_dark.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>

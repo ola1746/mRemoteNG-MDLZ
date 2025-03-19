@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Apps>
+    <App DisplayName="Last Updated" FileName="cmd" Arguments="/C &quot;type confCons.xml_file_version.txt &amp;&amp; PAUSE&quot;" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+    <App DisplayName="Ping" FileName="cmd" Arguments="/C &quot;ping -n 10 %HOSTNAME% &amp;&amp; PAUSE&quot;" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+    <App DisplayName="Traceroute" FileName="cmd" Arguments="/C &quot;tracert -d %HOSTNAME% &amp;&amp; PAUSE&quot;" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+    <App DisplayName="Update Inventory" FileName="cmd" Arguments="/C refresh_mRemoteNG_conn_info.exe" WorkingDir="" WaitForExit="False" TryToIntegrate="False" RunElevated="False" ShowOnToolbar="True" />
+</Apps>
