@@ -93,7 +93,7 @@
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new System.Drawing.Size(149, 27);
             lblTitle.TabIndex = 0;
-            lblTitle.Text = "Fructus temporum";
+            lblTitle.Text = "Rebuilt by Rahul Bhattad HCLTech";
             lblTitle.UseCompatibleTextRendering = true;
             // 
             // lblVersion
@@ -107,54 +107,6 @@
             lblVersion.TabIndex = 1;
             lblVersion.Text = "Version";
             lblVersion.UseCompatibleTextRendering = true;
-            // 
-            // lblLicense
-            // 
-            lblLicense.AutoSize = true;
-            lblLicense.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            lblLicense.ForeColor = System.Drawing.SystemColors.ControlText;
-            lblLicense.Location = new System.Drawing.Point(6, 74);
-            lblLicense.Name = "lblLicense";
-            lblLicense.Size = new System.Drawing.Size(48, 22);
-            lblLicense.TabIndex = 5;
-            lblLicense.Text = "License";
-            lblLicense.UseCompatibleTextRendering = true;
-            // 
-            // lblCopyright
-            // 
-            lblCopyright.AutoSize = true;
-            lblCopyright.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            lblCopyright.ForeColor = System.Drawing.SystemColors.ControlText;
-            lblCopyright.Location = new System.Drawing.Point(6, 52);
-            lblCopyright.Name = "lblCopyright";
-            lblCopyright.Size = new System.Drawing.Size(63, 22);
-            lblCopyright.TabIndex = 2;
-            lblCopyright.Text = "Copyright";
-            lblCopyright.UseCompatibleTextRendering = true;
-            // 
-            // frmAbout
-            // 
-            AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            BackColor = System.Drawing.SystemColors.Control;
-            ClientSize = new System.Drawing.Size(584, 281);
-            Controls.Add(pnlBottom);
-            Controls.Add(pbLogo);
-            Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            ForeColor = System.Drawing.SystemColors.ControlText;
-            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            MaximizeBox = false;
-            MaximumSize = new System.Drawing.Size(20000, 10000);
-            MinimizeBox = false;
-            Name = "frmAbout";
-            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "About";
-            TopMost = true;
-            ((System.ComponentModel.ISupportInitialize)pbLogo).EndInit();
-            pnlBottom.ResumeLayout(false);
-            pnlBottom.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
         }
         #endregion
 
