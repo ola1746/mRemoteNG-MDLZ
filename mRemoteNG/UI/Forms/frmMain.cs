@@ -236,7 +236,7 @@ namespace mRemoteNG.UI.Forms
             fileMenu.ApplyLanguage();
             viewMenu.ApplyLanguage();
             toolsMenu.ApplyLanguage();
-            helpMenu.ApplyLanguage();
+            //helpMenu.ApplyLanguage();
         }
 
         private void OnApplicationSettingChanged(object sender, PropertyChangedEventArgs propertyChangedEventArgs)

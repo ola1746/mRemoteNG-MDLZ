@@ -93,7 +93,7 @@
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new System.Drawing.Size(149, 27);
             lblTitle.TabIndex = 0;
-            lblTitle.Text = "Rebuilt by Rahul Bhattad HCLTech";
+            lblTitle.Text = "Rebuilt by Rahul Bhattad (HCLTech)";
             lblTitle.UseCompatibleTextRendering = true;
             // 
             // lblVersion
