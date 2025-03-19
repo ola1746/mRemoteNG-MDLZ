@@ -10,12 +10,12 @@ using System.Reflection;
 using System.Resources;
 
 // General Information
-[assembly: AssemblyTitle("mRemoteNG")]
+[assembly: AssemblyTitle("MDLZ mRemoteNG")]
 [assembly: AssemblyDescription("Multi-Remote Next Generation Connection Manager")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Profi-KOM Ltd.")]
-[assembly: AssemblyProduct("mRemoteNG Connection Manager")]
-[assembly: AssemblyCopyright("(c) 2025 mRemoteNG")]
+[assembly: AssemblyCompany("HCLTech")]
+[assembly: AssemblyProduct("MDLZ mRemoteNG Connection Manager")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,11 +30,11 @@ using System.Resources;
 
 <#+
     //build is a number of days from date of last release + curent hour + curent minute of build
-    int major = 1;
-    int minor = 78;
-    int revision = 2;
-    string channel = "Nightly Build";
-    DateTime lastReleaseDate = new DateTime(2019, 9, 2);
+    int major = 2;
+    int minor = 0;
+    int revision = 6;
+    string channel = "";
+    DateTime lastReleaseDate = new DateTime(2025, 3, 12);
     DateTime CurrentDate = DateTime.UtcNow;
     TimeSpan elapsedTime;
     double TotalMinutes;

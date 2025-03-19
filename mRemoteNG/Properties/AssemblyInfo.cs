@@ -8,20 +8,20 @@ using System.Reflection;
 using System.Resources;
 
 // General Information
-[assembly: AssemblyTitle("mRemoteNG")]
+[assembly: AssemblyTitle("MDLZ mRemoteNG")]
 [assembly: AssemblyDescription("Multi-Remote Next Generation Connection Manager")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Profi-KOM Ltd.")]
-[assembly: AssemblyProduct("mRemoteNG Connection Manager")]
-[assembly: AssemblyCopyright("(c) 2025 mRemoteNG")]
+[assembly: AssemblyCompany("HCLTech")]
+[assembly: AssemblyProduct("MDLZ mRemoteNG Connection Manager")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Version information
-[assembly: AssemblyVersion("1.78.2.2916")]
-[assembly: AssemblyFileVersion("1.78.2.2916")]
+[assembly: AssemblyVersion("2.0.6.11")]
+[assembly: AssemblyFileVersion("2.0.6.11")]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]
-[assembly: AssemblyInformationalVersion("1.78.2 (Nightly Build 2916)")]
+[assembly: AssemblyInformationalVersion("2.0.6 ( 11)")]
 
 // Logging
 [assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config")]
